@@ -27,7 +27,7 @@ jobs:
           tags: eden169/myapp:latest
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: build-and-push
 
     steps:
