@@ -26,7 +26,7 @@ jobs:
           push: true
           tags: eden169/myapp:latest
 
-deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: build-and-push
 
