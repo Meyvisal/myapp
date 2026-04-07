@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-    res.write('Hello from CI/CD! Somkhal pg DevOps dia tmey haha 🐳');
+    res.write('Auto Deploy is working 🐳');
     res.end();
 });
 
